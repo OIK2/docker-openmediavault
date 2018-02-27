@@ -1,6 +1,6 @@
-FROM debian:wheezy
+FROM resin/rpi-raspbian:latest
 
-MAINTAINER Ilya Kogan <ikogan@flarecode.com>
+MAINTAINER MODaly <ferretmail@gmail.com>
 
 # Add the OpenMediaVault repository
 COPY openmediavault.list /etc/apt/sources.list.d/
